@@ -1,0 +1,12 @@
+# Ujian Fungsi Pangkat JCDC 3 Mei 2019
+
+def pangkat(x , y):
+        if y ==0:
+                return 1
+        return x*pangkat(x, y-1)
+
+print (pangkat(2 , 3))
+print (pangkat(3 , 3))
+print (pangkat(10 , 5))
+print (pangkat(7 , 8))
+print (pangkat(9 , 9))
